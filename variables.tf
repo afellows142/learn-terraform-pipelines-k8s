@@ -1,6 +1,6 @@
 variable "region" {
   type        = string
-  default     = "us-central1"
+  default     = "europe-west4"
   description = "GCP region to deploy clusters."
 }
 
@@ -12,12 +12,13 @@ variable "cluster_name" {
 
 variable "google_project" {
   type        = string
+  default     = andrew-f-stringsz
   description = "Google Project to deploy cluster"
 }
 
 variable "username" {
   type        = string
-  default     = "admin"
+  default     = "hashiciorp"
   description = "Username for GKE clusters"
 }
 
