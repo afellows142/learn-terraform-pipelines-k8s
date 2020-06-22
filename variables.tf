@@ -12,7 +12,7 @@ variable "cluster_name" {
 
 variable "google_project" {
   type        = string
-  default     = andrew-f-stringsz
+  default     = "andrew-f-stringsz"
   description = "Google Project to deploy cluster"
 }
 
